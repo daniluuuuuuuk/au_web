@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Страница</title>
+        <style>
+            h1 {
+              font-size: 40px;
+            }	
+            .frst {
+              color: black;
+            }
+            ol {
+              color: darkred;
+            }
+            #e-slavic {
+              font-style: italic;
+            }
+            #e-slavic ~ li {
+              color: red;
+            }
+            #latvian {
+              font-style: italic;
+            }
+            #latvian + li {
+              color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Балстославянские языки</h1>
+        <ol class="frst">
+          <li>Славянские языки</li>
+          <ol>
+            <li>Славянские микроязыки</li>
+            <li>Праславянский язык</li>
+            <li id="e-slavic">Восточнославянские языки</li>
+            <li>Западнославянские языки</li>
+            <li>Южнославяснкие языки</li>
+            <li>...</li>
+          </ol>
+          <li>Балтийские языки</li>
+          <ol>
+            <li>Литовский язык</li>
+            <li id="latvian">Латышский язык</li>
+              <ol>
+                <li>Латгальский язык</li>
+              </ol>
+            <li>Прусский язык</li>
+            <li>...</li>
+          </ol>
+        </ol>
+    </body>
+</html>
